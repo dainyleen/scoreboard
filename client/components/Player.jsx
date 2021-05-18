@@ -8,6 +8,10 @@ const Player = () => {
           Dainy
         </span>
       </div>
+      <div className="counter">
+        <button className="counter-action decrement"> - </button>
+        <button className="counter-action increment"> + </button>
+      </div>
     </div>
   )
 }

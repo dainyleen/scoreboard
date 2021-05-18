@@ -21,6 +21,10 @@ header h1 {
   letter-spacing: 2px;
 }
 
+button {
+  outline: none;
+}
+
 /* COMPONENT STYLES */
 
 .scoreboard {
