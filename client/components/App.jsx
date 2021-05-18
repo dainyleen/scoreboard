@@ -1,8 +1,11 @@
 import React from 'react'
 
-function App () {
+const App = () => {
   return (
-    <h1>React Play Version 1.0</h1>
+    <header>
+      <h1>Scoreboard</h1>
+      <span>Players: 1</span>
+    </header>
   )
 }
 
