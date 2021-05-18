@@ -12,6 +12,7 @@ const App = (props) => {
       />
       {props.initialPlayers.map(player =>
         <Player
+          key={player.id}
           name={player.name}
           score={player.score}
         />
