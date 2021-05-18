@@ -6,7 +6,7 @@ import Player from './Player'
 const App = () => {
   return (
     <div className="scoreboard">
-      <Header />,
+      <Header title="Scoreboard" totalPlayers={1}/>,
       <Player />
     </div>
   )

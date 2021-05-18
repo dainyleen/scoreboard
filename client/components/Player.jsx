@@ -4,12 +4,10 @@ import Counter from './Counter'
 
 const Player = () => {
   return (
-    <div>
-      <div className="player">
-        <span className="player-name">
-          Dainy
-        </span>
-      </div>
+    <div className="player">
+      <span className="player-name">
+        Dainy
+      </span>
       <Counter />
     </div>
   )
