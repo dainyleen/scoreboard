@@ -5,7 +5,7 @@ import Player from './Player'
 
 const App = () => {
   return (
-    <div>
+    <div className="scoreboard">
       <Header />,
       <Player />
     </div>

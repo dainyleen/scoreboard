@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Counter from './Counter'
+
 const Player = () => {
   return (
     <div>
@@ -8,6 +10,7 @@ const Player = () => {
           Dainy
         </span>
       </div>
+      <Counter />
     </div>
   )
 }

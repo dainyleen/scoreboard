@@ -12,5 +12,4 @@ const Counter = () => {
   )
 }
 
-export defaualt Counter
-
+export default Counter
