@@ -1,11 +1,14 @@
 import React from 'react'
 
-const Header = () => {
+const Header = (props) => {
+  console.log(props)
   return (
-    <header>
-      <h1>Scoreboard</h1>
-      <span className="stats">Players: 1</span>
-    </header>
+    <div>
+      <header>
+        <h1>Scoreboard</h1>
+        <span className="stats">Players: 1</span>
+      </header>
+    </div>
   )
 }
 

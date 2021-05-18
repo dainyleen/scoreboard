@@ -1,10 +1,14 @@
 import React from 'react'
 
 import Header from './Header'
+import Player from './Player'
 
 const App = () => {
   return (
-    <Header />
+    <div className="scoreboard">
+      <Header title="Scoreboard" totalPlayers={1}/>,
+      <Player />
+    </div>
   )
 }
 
