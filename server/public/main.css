@@ -23,13 +23,6 @@ header h1 {
   font-weight: normal;
 }
 
-svg {
-  width: 28px;
-  height: 19px;
-  margin-right: 5px;
-  fill: #F0F0F0
-}
-
 /* FORMS */
 
 button {
@@ -106,7 +99,7 @@ form {
 
 .counter-action {
   border: none;
-  font-size: 1.15em;
+  font-size: 1em;
   font-weight: bold;
   color: #B0AEBA;
   display: block;
