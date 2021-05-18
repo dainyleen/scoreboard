@@ -1,11 +1,10 @@
 import React from 'react'
 
+import Header from './Header'
+
 const App = () => {
   return (
-    <header>
-      <h1>Scoreboard</h1>
-      <span className="stats">Players: 1</span>
-    </header>
+    <Header />
   )
 }
 
