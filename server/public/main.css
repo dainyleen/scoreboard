@@ -21,7 +21,25 @@ header h1 {
   letter-spacing: 2px;
 }
 
+/* FORMS */
+
 button {
+  outline: none;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  flex-grow: 1;
+  border-width: 0 0 1px 0;
+  margin: 15px 10px 15px 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   outline: none;
 }
 
