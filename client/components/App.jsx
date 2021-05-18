@@ -4,7 +4,7 @@ const App = () => {
   return (
     <header>
       <h1>Scoreboard</h1>
-      <span>Players: 1</span>
+      <span className="stats">Players: 1</span>
     </header>
   )
 }

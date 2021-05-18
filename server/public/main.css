@@ -36,3 +36,62 @@ header h1 {
   border-bottom: solid 2px black;
   letter-spacing: 2px;
 }
+
+.player-name:hover {
+  visibility: visible;
+}
+
+.player-name,
+.counter-score {
+  color: black;
+}
+
+.player-name {
+  flex-grow: 1;
+  line-height: 3.5em;
+  padding-left: 10px;
+}
+
+.stats {
+  width: 170px;
+  margin: 0 0 0 28px;
+}
+
+.stats td:first-child {
+  text-align: right;
+  letter-spacing: 2px;
+  font-size: .7em;
+}
+
+.stats td:last-child {
+  text-align: left;
+}
+
+.counter {
+  display: flex;
+  width: 190px;
+}
+
+.counter-action {
+  border: none;
+  font-size: 1.15em;
+  font-weight: bold;
+  display: block;
+  padding: 20px 20px;
+  outline: none;
+}
+
+.increment:hover {
+  background: tomato;
+}
+
+.decrement:hover {
+  background: tomato;
+}
+
+.counter-score {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 2em;
+  line-height: 2em;
+}
