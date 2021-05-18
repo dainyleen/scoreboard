@@ -2,7 +2,13 @@ import React from 'react'
 
 const Player = () => {
   return (
-   <div>PLAYERS</div>
+    <div>
+      <div className="player">
+        <span className="player-name">
+          Dainy
+        </span>
+      </div>
+    </div>
   )
 }
 
