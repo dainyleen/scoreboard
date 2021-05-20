@@ -75,6 +75,15 @@ input[type=submit] {
   outline: none;
 }
 
+/* ICONS */
+
+svg {
+  width: 28px;
+  height: 19px;
+  margin-right: 5px;
+  fill: #F0F0F0;
+}
+
 /* COMPONENT STYLES */
 
 .scoreboard {
