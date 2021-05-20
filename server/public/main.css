@@ -82,12 +82,12 @@ input[type=submit] {
   width: 700px;
   margin: 70px auto;
   border-radius: 6px;
-  box-shadow: 0 2px 0 rgb(103, 104, 250);
+  box-shadow: 0 2px 0 rgb(133, 104, 250);
   overflow: hidden;
 }
 
 .player {
-  display:flex;
+  display: flex;
   font-size: 1.2em;
   border-bottom: solid 2px #EEEEEE;
   letter-spacing: 2px;
@@ -97,7 +97,7 @@ input[type=submit] {
   border-bottom-color: #D4CAFF;
 }
 
-.player-name:hover {
+.player-name:hover .remove-player {
   visibility: visible;
 }
 
@@ -110,6 +110,18 @@ input[type=submit] {
   flex-grow: 1;
   line-height: 3.5em;
   padding-left: 10px;
+}
+
+.remove-player {
+  font-size: 1.15em;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  color: #EF5350;
+  cursor: pointer;
+  margin: 0 10px 0 0;
+  padding: 0;
+  background: none;
 }
 
 .stats {
@@ -140,7 +152,7 @@ input[type=submit] {
 
 .counter-action {
   border: none;
-  font-size: 1em;
+  font-size: 1.15em;
   font-weight: bold;
   color: #B0AEBA;
   display: block;
@@ -160,6 +172,7 @@ input[type=submit] {
 .counter-score {
   flex-grow: 1;
   text-align: center;
+  font-family: monospace;
   font-size: 2em;
   line-height: 2em;
 }
