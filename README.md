@@ -1,8 +1,8 @@
 # Playing With React Components Part 1
 
-I am using this boilerplate to re-create a scoreboard web app that I've watched from a video tutorial. 
+I am using this boilerplate to re-create a scoreboard web version that I've watched from a video tutorial. 
 
-Want to see it? Do these simple steps:
+I suggest you begin with these simple steps:
 
 1. npm install
 2. npm run dev
