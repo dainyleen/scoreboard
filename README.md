@@ -6,4 +6,4 @@ Want to see it? Do these simple steps:
 
 1. npm install
 2. npm run dev
-3. type in your browser: localhost:3000
+3. type in your browser - localhost:3000
