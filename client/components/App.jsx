@@ -14,7 +14,6 @@ const App = (props) => {
         <Player
           key={player.id}
           name={player.name}
-          score={player.score}
         />
       )}
     </div>
