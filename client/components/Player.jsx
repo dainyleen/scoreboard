@@ -6,7 +6,7 @@ const Player = (props) => {
   return (
     <div className="player">
       <span className="player-name">{props.name}</span>
-      <Counter score={props.score} />
+      <Counter />
     </div>
   )
 }
