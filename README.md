@@ -9,7 +9,7 @@ I suggest you begin with these simple steps:
 3. type in your browser - localhost:3000
 
 ## Lo-Fi Prototype
-Here's a low-fidelity prototype: 
+Creating a low-fidelity prototype using Figma. 
 
 ![scoreboard](https://user-images.githubusercontent.com/74221561/120553997-51460000-c44d-11eb-8186-f228ac89eb06.png)
 
